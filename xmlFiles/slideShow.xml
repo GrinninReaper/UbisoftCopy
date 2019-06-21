@@ -1,0 +1,26 @@
+<SLIDESHOW>
+    <NEWS>
+        <BKGD>media/ACO.jpg</BKGD>
+        <NAME>assassin's creed odyssey</NAME>
+        <COLOR>#CB0606</COLOR>
+        <TITLE>live your odyssey</TITLE>
+        <SUBTITLE>Get prepared to overcome the challenges and discover the adventures ancient Greece has in store.</SUBTITLE>
+        <ADDITIONAL>#9658 ALEXIOS LEGENDARY FIGURINE</ADDITIONAL>
+    </NEWS>
+    <NEWS>
+        <BKGD>media/ACO.jpg</BKGD>
+        <NAME>rainbow six siege</NAME>
+        <COLOR>#06AACB</COLOR>
+        <TITLE>operation phatom sight</TITLE>
+        <SUBTITLE>Operation Phantom Sight is coming our way, and it brings with it two haunting operators, Nøkk and Warden.</SUBTITLE>
+        <ADDITIONAL>#9658 ALEXIOS LEGENDARY FIGURINE</ADDITIONAL>
+    </NEWS>
+    <NEWS>
+        <BKGD>media/TCTD2.jpg</BKGD>
+        <NAME>TOM CLANCY'S THE DIVISION 2</NAME>
+        <COLOR>#CB6906</COLOR>
+        <TITLE>WASHINGTON D.C. HAS FALLEN</TITLE>
+        <SUBTITLE>Available now</SUBTITLE>
+        <ADDITIONAL>#9658 OFFICIAL WEBSITE</ADDITIONAL>
+    </NEWS>
+</SLIDESHOW>
