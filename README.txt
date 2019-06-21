@@ -8,3 +8,5 @@ Documentation:
 	https://www.w3schools.com/js/js_timing.asp - Timer on javascript
 	https://www.w3schools.com/xml/xml_applications.asp - Take data from XML file
 	https://mdbootstrap.com/docs/jquery/utilities/spacing/ - Spacing in bootstrap grid
+	
+The repositories doesn't have the media files necessary  for the page to be displayed.
