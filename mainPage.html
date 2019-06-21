@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8"> 
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet"  href="style.css">
+  </head>
+  
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+
+	<!-- jQuery library -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+
+	<!-- Latest compiled JavaScript -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+
+
+<body>
+
+<!-- Head navigation bar -->
+<nav class = "navBar">
+	<div>
+		<a href="#0"><img src="media/ubi_logo.jpg" class="navBarLogo" href="#"></img></a>
+		<a href="#1">more games</a>
+		<a href="#2">store</a>
+		<a href="#3">forums</a>
+		<a href="#4">support</a>
+		<a href="#5">
+			<img src="media/magnifier.png" style="width:100%"></img>
+		</a>
+		<a class="navBarEnd">log in</a>
+	</div>
+</nav>
+
+<!-- Slideshow newsfeed -->
+<div class = "newsSlideshow">
+
+	<!-- The pictures and the text -->
+	<!-- 
+	<div class = "newsImage">
+		<img src="media/ACO.jpg" style="width:100%"></img>
+		<div class="newsTextName"><font color=#CB0606>assassin's creed odyssey</font></div>
+		<div class="newsTextTitle">live your odyssey</div>
+		<div class="newsTextsubtitle">Get prepared to overcome the challenges and discover the adventures ancient Greece has in store.</div>
+		<div class="newsAdditional fade"><font color=#CB0606>&#9658 ALEXIOS LEGENDARY FIGURINE</font></div>
+	</div>
+
+	<div class = "newsImage">
+		<img src="media/R6.jpg" style="width:100%"></img>
+		<div class="newsTextName"><font color=#06AACB>rainbow six siege</font></div>
+		<div class="newsTextTitle">operation phatom sight</div>
+		<div class="newsTextsubtitle fade">Operation Phantom Sight is coming our way, and it brings with it two haunting operators, Nøkk and Warden.</div>
+		<div class="newsAdditional fade"><font color=#CB0606> </font></div>
+	</div>
+	
+	<div class = "newsImage">
+		<img src="media/TCTD2.jpg" style="width:100%"></img>
+		<div class="newsTextName"><font color=#CB6906>TOM CLANCY'S THE DIVISION 2</font></div>
+		<div class="newsTextTitle">WASHINGTON D.C. HAS FALLEN</div>
+		<div class="newsTextsubtitle">Available now</div>
+		<div class="newsAdditional fade"><font color=#CB6906>&#9658 OFFICIAL WEBSITE</font></div>
+	</div>
+	-->
+</div>
+
+<!-- Trending trailer -->
+<div align="center" class = "trailerSlideshow">
+	<div class = "trailerBkg">Trending trailers
+		<div class = "trailerImage">
+			<img src="media/SW.jpg" style="width:100%"> </img>
+		</div>
+	</div>
+	
+	<!-- <div class = "trailerImage"> -->
+	
+	<!-- </div> -->
+	
+	<!-- <div class = "trailerImage"> -->
+	
+	<!-- </div> -->
+
+
+</div>
+
+<!-- Dernières actus -->
+<div class = "latestContainer">
+	<div class = "container">
+		<div class="latestTitle">latest news</div>
+		<!-- Pages row -->
+		<div class="row">
+				<div class="col-sm-2">
+					<a class="latestCtgBtn" onclick="selectLtstCtg(0)">
+						All news
+					</a>
+				</div>
+				<div class="col-sm-2">
+					<a class="latestCtgBtn" onclick="selectLtstCtg(1)">
+						The crew 2
+					</a>
+				</div>
+				<div class="col-sm-2">
+					<a class="latestCtgBtn" onclick="selectLtstCtg(2)">
+						Assassin's Creed
+					</a>
+				</div>
+				<div class="col-sm-2">
+					<a class="latestCtgBtn" onclick="selectLtstCtg(3)">
+						The Division 2
+					</a>
+				</div>
+				<div class="col-sm-2">
+					<a class="latestCtgBtn" onclick="selectLtstCtg(4)">
+						For Honor
+					</a>
+				</div>
+				<div class="col-sm-2">
+					<a class="latestCtgBtn" onclick="selectLtstCtg(5)">
+						Rainbox Six Siege
+					</a>
+				</div>
+		</div>
+		<!-- First row -->
+		<div class="row" style ="padding:2.5px">
+			<div class="col-lg-6">
+				<div class="row">
+					<div class="col-sm-4">
+						<img class="img-responsive" style ="border:5px solid white" src="media/FC_Vignette.jpg" />
+					</div>
+					<div class="col-sm-8">
+						<div class="latestItemTitle">Far Cry</div>
+						<div class="latestItemDesc">Didn't know wht game to put there. So, fuck it!</div>
+					</div>
+				</div>
+			</div>
+			<div class="col-lg-6">
+				<div class="row">
+					<div class="col-sm-4">
+						<img class="img-responsive" style ="border:5px solid white" src="media/C2077_Vignette.jpg" />
+					</div>
+					<div class="col-sm-8">
+						<div class="latestItemTitle">Cyberpunk 2077</div>
+						<div class="latestItemDesc">Wake the fuck up, Samurai. We have a language to learn.</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- Second row -->
+		<div class="row" style ="padding:2.5px">
+			<div class="col-lg-6">
+				<div class="row">
+					<div class="col-sm-4">
+						<img class="img-responsive" style ="border:5px solid white" src="media/ACR_Vignette.jpg" />
+					</div>
+					<div class="col-sm-8">
+						<div class="latestItemTitle">Assassin's Creed Rogue</div>
+						<div class="latestItemDesc">Nothing is working and everything is an error in JS.</div>
+					</div>
+				</div>
+			</div>
+			<div class="col-lg-6">
+				<div class="row">
+					<div class="col-sm-4">
+						<img class="img-responsive" style ="border:5px solid white"  src="media/Rayman_Vignette.jpg" />
+					</div>
+					<div class="col-sm-8">
+						<div class="latestItemTitle">Rayman</div>
+						<div class="latestItemDesc">"No language is impossible to learn". JS: Hi, I am JS aka "No language"</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- Third row -->
+		<div class="row" style ="padding:2.5px">
+			<div class="col-lg-6">
+				<div class="row">
+					<div class="col-sm-4">
+						<img class="img-responsive" style ="border:5px solid white" src="media/WD_Vignette.jpg" />
+					</div>
+					<div class="col-sm-8">
+						<div class="latestItemTitle">Watch Dogs</div>
+						<div class="latestItemDesc">Everything is connected</div>
+					</div>
+				</div>
+			</div>
+			<div class="col-lg-6">
+				<div class="row">
+					<div class="col-sm-4">
+						<img class="img-responsive" style ="border:5px solid white"  src="media/ST_Vignette.png" />
+					</div>
+					<div class="col-sm-8">
+						<div class="latestItemTitle">Stark Trek</div>
+						<div class="latestItemDesc">Space, the final frontier. </div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<!-- Discover our games -->
+<div class = "disocverContainer">
+
+
+</div>
+
+<!-- Scripts -->
+<script>
+/*//Example
+// Thumbnail image controls
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("newsImage");
+  if (n > slides.length) {slideIndex = 1} 
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none"; 
+  }
+  slides[slideIndex-1].style.display = "block"; 
+}
+*/
+
+var slidesIndex = 0;
+var j = 0;
+loadXMLSlideShow(slidesIndex);
+selectLtstCtg(0);
+
+function loadXMLSlideShow(i){
+	var xmlhttp = new XMLHttpRequest();
+	xmlhttp.onreadystatechange = function(){
+		if(this.readyState == 4 && this.status == 200){
+			myFunction(this, i);
+		}
+	};
+	xmlhttp.open("GET", "xmlFiles/slideShow.xml", true);
+	xmlhttp.send();
+}
+
+function myFunction(xml, i){
+	var xmlDoc = xml.responseXML;
+	var slideShow = "";
+	var x = xmlDoc.getElementsByTagName("NEWS");
+	i = i % x.length;
+
+	//for(i=0; i<x.length; i++){
+		slideShow += '<div class = "newsImage">' 
+			+ '<img src="' + x[i].getElementsByTagName("BKGD")[0].childNodes[0].nodeValue + '" style="width:100%"></img>\n'
+			+ '<div class="newsTextName"><font color=' + x[i].getElementsByTagName("COLOR")[0].childNodes[0].nodeValue + '>' + x[i].getElementsByTagName("NAME")[0].childNodes[0].nodeValue + '</font></div>\n'
+			+ '<div class="newsTextTitle">' + x[i].getElementsByTagName("TITLE")[0].childNodes[0].nodeValue + '</div>\n'
+			+ '<div class="newsTextsubtitle">' + x[i].getElementsByTagName("SUBTITLE")[0].childNodes[0].nodeValue + '</div>\n'
+			+ '<div class="newsAdditional"><font color=' + x[i].getElementsByTagName("COLOR")[0].childNodes[0].nodeValue + '>&' + x[i].getElementsByTagName("ADDITIONAL")[0].childNodes[0].nodeValue + '</font></div>\n</div>\n';
+	//}
+	console.log(slideShow);
+	document.getElementsByClassName("newsSlideshow")[0].innerHTML = slideShow + 
+	'<!-- Next and previous buttons -->' +
+	'<a class="prev" onclick="plusSlides(-1)">&#10094;</a>' +
+	'<!-- <span class="dot"></span> -->' +
+	'<a class="next" onclick="plusSlides(1)">&#10095;</a>';
+}
+
+//TODO:make the following infinite
+/*
+if (j == 0){
+	setTimeout(function(){
+		plusSlides(1);
+	}, 3000);
+}
+*/
+
+function plusSlides(n) {
+	loadXMLSlideShow(slidesIndex += n);
+}
+
+function currentSlide(n) {
+	loadXMLSlideShow(slidesIndex = n);
+}
+
+function selectLtstCtg(selectedCtg){
+	var i;
+	var ltstCtgBtn = document.getElementsByClassName("latestCtgBtn");
+	for(i=0; i < ltstCtgBtn.length; i++){
+		ltstCtgBtn[i].style.color = "#555";
+		ltstCtgBtn[i].style.textDecoration = "none";
+	}
+	ltstCtgBtn[selectedCtg].style.color = "black";
+	ltstCtgBtn[selectedCtg].style.textDecoration = "underline";
+}
+</script>
+	
+</body>
+
+</html>
